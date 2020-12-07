@@ -1,0 +1,29 @@
+{
+  "name": "@mediacurrent/jest-config-gatsby",
+  "version": "0.0.1",
+  "description": "Jest config for Gatsby projects at Mediacurrent",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mediacurrent/jest-config-gatsby.git"
+  },
+  "keywords": [
+    "jest",
+    "config"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mediacurrent/jest-config-gatsby/issues"
+  },
+  "homepage": "https://github.com/mediacurrent/jest-config-gatsby#readme",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "babel-jest": "^26.6.3",
+    "babel-preset-gatsby": "^0.8.0",
+    "jest": "^26.6.3",
+    "jest-runner-eslint": "^0.10.0",
+    "jest-runner-stylelint": "^2.3.7",
+    "jest-watch-typeahead": "^0.6.1"
+  }
+}
