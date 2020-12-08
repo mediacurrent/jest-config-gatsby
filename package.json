@@ -1,6 +1,6 @@
 {
   "name": "@mediacurrent/jest-config-gatsby",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Jest config for Gatsby projects at Mediacurrent",
   "main": "index.js",
   "repository": {
