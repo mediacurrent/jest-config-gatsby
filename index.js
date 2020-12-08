@@ -1,5 +1,5 @@
 module.exports = {
-  ...require('./jest-common'),
+  ...require('./jest.common'),
   collectCoverageFrom: ['**/src/**/*.js', '!**/src/**/*.stories.js'],
   coveragePathIgnorePatterns: [
     '/node_modules/',
