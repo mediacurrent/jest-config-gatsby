@@ -1,7 +1,4 @@
-const path = require('path')
-
 module.exports = {
-  rootDir: path.join(__dirname, '..'),
   transform: {
     '^.+\\.jsx?$': './jest.preprocess.js'
   },
@@ -17,8 +14,8 @@ module.exports = {
     __PATH_PREFIX__: ''
   },
   testURL: 'http://localhost',
-  setupFiles: ['./jest.loadershim.js'],
-  setupFilesAfterEnv: ['./jest.setup.js'],
+  setupFiles: [require.resolve('./jest.loadershim.js')],
+  setupFilesAfterEnv: [require.resolve('./jest.setup.js')],
   collectCoverageFrom: ['**/src/**/*.js'],
   watchPlugins: [
     'jest-watch-typeahead/filename',
