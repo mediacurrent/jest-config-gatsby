@@ -16,10 +16,10 @@ module.exports = {
     '/static/'
   ],
   projects: [
-    'node_modules/@mediacurrent/jest-config-gatsby/jest.scss.js',
-    'node_modules/@mediacurrent/jest-config-gatsby/jest.lint.js',
-    'node_modules/@mediacurrent/jest-config-gatsby/jest.client.js',
-    'node_modules/@mediacurrent/jest-config-gatsby/jest.storybook.js'
+    '@mediacurrent/jest-config-gatsby/jest.scss.js',
+    '@mediacurrent/jest-config-gatsby/jest.lint.js',
+    '@mediacurrent/jest-config-gatsby/jest.client.js',
+    '@mediacurrent/jest-config-gatsby/jest.storybook.js'
   ],
   transform: {
     '^.+\\.[tj]sx?$': 'babel-jest',
